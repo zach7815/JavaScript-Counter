@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+  color: #354853;
+  background-color: #f1f5f8;
+}
+
+h1 h2 {
+  font-weight: 500;
+}
+
+.title {
+  position: relative;
+  bottom: 5%;
+  font-size: 6rem;
+}
+.counter {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+
+.btn {
+  margin-right: 0.5rem;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
