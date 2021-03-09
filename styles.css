@@ -18,7 +18,6 @@ h1 h2 {
 
 .title {
   position: relative;
-  bottom: 5%;
   font-size: 6rem;
 }
 .counter {
@@ -36,4 +35,21 @@ h1 h2 {
 
 .negative {
   color: red;
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 3rem;
+    bottom: 0;
+  }
+  .counter {
+    margin-bottom: 0;
+  }
+  .child {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-top: 1rem;
+  }
 }
