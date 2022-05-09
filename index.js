@@ -7,7 +7,7 @@ const reset = document.querySelector(".reset")
 
 
 const changeValue = (num) => {
-    let number= 0;
+    let number;
     number += num;
    count.classList.toggle("negative", number < 0);
    count.classList.toggle("positive", number > 0);
