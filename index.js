@@ -23,7 +23,7 @@ const changeValue = (num) => {
   });
 
     reset.addEventListener("click", () => {
-        number = 0;
+        count.innerHTML=0;
        count.classList.remove("negative");
        count.classList.remove("positive");
     })
