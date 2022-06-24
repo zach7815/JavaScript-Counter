@@ -2,13 +2,11 @@ const count = document.querySelector(".counter");
 const increase = document.querySelector(".increase");
 const decrease= document.querySelector(".decrease");
 const reset = document.querySelector(".reset")
-
-
+const number=0;
 
 
 const changeValue = (num) => {
-    let number=0;
-    number += num;
+number += num;
    count.classList.toggle("negative", number < 0);
    count.classList.toggle("positive", number > 0);
    count.innerHTML=number;
