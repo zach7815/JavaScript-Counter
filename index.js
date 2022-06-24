@@ -2,7 +2,7 @@ const count = document.querySelector(".counter");
 const increase = document.querySelector(".increase");
 const decrease= document.querySelector(".decrease");
 const reset = document.querySelector(".reset")
-const number=0;
+let number=0;
 
 
 const changeValue = (num) => {
